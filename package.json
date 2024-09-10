@@ -1,0 +1,15 @@
+{
+    "name": "smart-firebase",
+    "version": "0.1.3",
+    "description": "😬",
+    "workspaces": [
+        "packages/admin",
+        "packages/client",
+        "packages/common-types",
+        "packages/schema"
+    ],
+    "scripts": {
+        "build:full": "npm run build --ws"
+    },
+    "license": "MIT"
+}

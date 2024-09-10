@@ -1,0 +1,25 @@
+{
+    "name": "@smart-firebase/admin",
+    "version": "0.1.3",
+    "description": "",
+    "type": "module",
+    "scripts": {
+        "build": "tsup ./src/index.ts --dts --format esm",
+        "prepare": "pnpm run build"
+    },
+    "main": "./dist/index.js",
+    "types": "./dist/index.d.ts",
+    "keywords": [],
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+        "@smart-firebase/common-types": "workspace:*"
+    },
+    "devDependencies": {
+        "tsup": "^8.2.4",
+        "typescript": "^5.5.4"
+    },
+    "peerDependencies": {
+        "@firebase/database-types": "^1.0.0"
+    }
+}
